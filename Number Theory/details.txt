@@ -1,1 +1,1 @@
-This of contains thos esode related to number theory.
+These files contain codes related to number theory.
