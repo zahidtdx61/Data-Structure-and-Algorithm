@@ -11,7 +11,7 @@ void sieve(vector<bool> &prime, int n){
         //if i is prime then it must be mark as true
         if(prime[i]){
             if(i<=limit){   
-                for(int j=i*i; j<=n; j+=2*i){
+                for(int j=i*i; j<=n; j+=i){
                     prime[j] = 0;   //multiple of prime number marked as false;
                 }
             }
